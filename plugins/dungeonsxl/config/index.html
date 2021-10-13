@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#dungeonsxl" class="md-skip">
           Skip to content
         </a>
       
@@ -402,6 +402,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../permissions/" class="md-nav__link">
+        权限
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -445,7 +459,7 @@
               
                 
                 
-                <h1 id="_1">配置文件</h1>
+                <h1 id="dungeonsxl">配置文件（DungeonsXL）</h1>
 <pre><code class="language-yaml">#版本
 configVersion: 
 #选择语言文件 对应目录是在plugins/DungeonsXL/languages
@@ -488,17 +502,34 @@ groupColorPriority:
 - PINK
 #公告间隔
 announcementInterval: 30.0
+#是否发送下一关Title
 sendFloorTitle: true
 globalDeathMessagesDisabled: true
+#DungeonsXL支持任何自定义怪物插件
+#您可以在此处注册占位符标记和spawn命令
+#自定义外部怪物插件的应该使用怪物[Mob]标志和M触发器
+#由自定义外部怪物生成插件的怪物应该会被kill击杀计数器识别 (/dxl game)
 externalMobProviders: {}
+    # providerTag: spawn 命令
+    # &quot;%%&quot; 为占位符，即placeholders插件
+    XY: custommobplugin spawnmob %mob% %world% %x% %y% %z%
+#资源包
 resourcePacks: {}
+#多少世界使用一个副本
 maxInstances: 10
 editInstanceRemovalDelay: 5
 strictMovementCheckEnabled: true
+#安全模式
 secureMode:
+  #是否启用
   enabled: false
+  #是否允许玩家在编辑模式下打开背包
   openInventories: false
+  #是否允许玩家在编辑模式下放置物品 （还是丢弃扶贫）
   dropItems: false
+  #每5秒检查玩家
+  #检查玩家是否在编辑副本
+  #如果发现错误该玩家会被送回spawn
   checkInterval: 5.0
 backupMode: ON_DISABLE_AND_SAVE
 lobbyContainersEnabled: false
@@ -538,6 +569,21 @@ default: {}
           </div>
         </a>
       
+      
+        
+        <a href="../permissions/" class="md-footer__link md-footer__link--next" aria-label="Next: 权限" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              权限
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
