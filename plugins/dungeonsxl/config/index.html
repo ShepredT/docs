@@ -539,6 +539,277 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/location/" class="md-nav__link">
+        位置
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/login/" class="md-nav__link">
+        登录
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/logout/" class="md-nav__link">
+        登出
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/password/" class="md-nav__link">
+        密码
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/pickup/" class="md-nav__link">
+        获取物品
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/mobkill/" class="md-nav__link">
+        击杀生物
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/language/" class="md-nav__link">
+        修改语言
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/lever/" class="md-nav__link">
+        拉杆
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/brew/" class="md-nav__link">
+        酿造药水
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/smlet/" class="md-nav__link">
+        冶炼
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/step/" class="md-nav__link">
+        压力板
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/tame/" class="md-nav__link">
+        驯服
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/jump/" class="md-nav__link">
+        跳跃
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/ride/" class="md-nav__link">
+        骑行
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/command/" class="md-nav__link">
+        执行命令
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/objectives/variable/" class="md-nav__link">
+        变量
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_3_2" type="checkbox" id="__nav_2_2_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2_3_2">
+          事件列表
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="事件列表" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_2_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          事件列表
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../betonquest/eventis/cancel/" class="md-nav__link">
+        取消任务
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -849,82 +1120,81 @@
                 
                 
                 <h1 id="dungeonsxl">配置文件（DungeonsXL）</h1>
-<pre><code class="language-yaml">#版本
-configVersion: 
-#选择语言文件 对应目录是在plugins/DungeonsXL/languages
-language: english 
-#是否调用经济插件
-enableEconomy: false
-groupAdaptersEnabled: false
-chatEnabled: true
-chatFormat:
-  edit: '&amp;2[Edit] &amp;r%player_name%: '
-  game: '&amp;2[Game] %group_color%%player_name%: &amp;r'
-  group: '&amp;2%group_color%[%group_name%] %player_name%: &amp;r'
-  spy: '&amp;2[Chat Spy] %player_name%: &amp;r'
-#教程选项
-tutorial:
-  #是否启用
-  activated: false
-  #教程副本名称
-  dungeon: tutorial
-  #玩家进入后所在用户组[default]
-  startGroup: default
-  #完成后玩家进入所在的组[player]
-  endgroup: player
-#颜色标识
-groupColorPriority:
-- DARK_BLUE
-- LIGHT_RED
-- YELLOW
-- LIGHT_GREEN
-- PURPLE
-- ORANGE
-- BLACK
-- LIGHT_BLUE
-- DARK_GREEN
-- DARK_RED
-- LIGHT_GRAY
-- CYAN
-- MAGENTA
-- DARK_GRAY
-- PINK
-#公告间隔
-announcementInterval: 30.0
-#是否发送下一关Title
-sendFloorTitle: true
-globalDeathMessagesDisabled: true
-#DungeonsXL支持任何自定义怪物插件
-#您可以在此处注册占位符标记和spawn命令
-#自定义外部怪物插件的应该使用怪物[Mob]标志和M触发器
-#由自定义外部怪物生成插件的怪物应该会被kill击杀计数器识别 (/dxl game)
-externalMobProviders: {}
-    # providerTag: spawn 命令
-    # &quot;%%&quot; 为占位符，即placeholders插件
-    XY: custommobplugin spawnmob %mob% %world% %x% %y% %z%
-#资源包
-resourcePacks: {}
-#多少世界使用一个副本
-maxInstances: 10
-editInstanceRemovalDelay: 5
-strictMovementCheckEnabled: true
-#安全模式
-secureMode:
-  #是否启用
-  enabled: false
-  #是否允许玩家在编辑模式下打开背包
-  openInventories: false
-  #是否允许玩家在编辑模式下放置物品 （还是丢弃扶贫）
-  dropItems: false
-  #每5秒检查玩家
-  #检查玩家是否在编辑副本
-  #如果发现错误该玩家会被送回spawn
-  checkInterval: 5.0
-backupMode: ON_DISABLE_AND_SAVE
-lobbyContainersEnabled: false
-default: {}
-
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="c1">#版本</span>
+<span class="nt">configVersion</span><span class="p">:</span> 
+<span class="c1">#选择语言文件 对应目录是在plugins/DungeonsXL/languages</span>
+<span class="nt">language</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">english</span> 
+<span class="c1">#是否调用经济插件</span>
+<span class="nt">enableEconomy</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="nt">groupAdaptersEnabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="nt">chatEnabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="nt">chatFormat</span><span class="p">:</span>
+  <span class="nt">edit</span><span class="p">:</span> <span class="s">&#39;&amp;2[Edit]</span><span class="nv"> </span><span class="s">&amp;r%player_name%:</span><span class="nv"> </span><span class="s">&#39;</span>
+  <span class="nt">game</span><span class="p">:</span> <span class="s">&#39;&amp;2[Game]</span><span class="nv"> </span><span class="s">%group_color%%player_name%:</span><span class="nv"> </span><span class="s">&amp;r&#39;</span>
+  <span class="nt">group</span><span class="p">:</span> <span class="s">&#39;&amp;2%group_color%[%group_name%]</span><span class="nv"> </span><span class="s">%player_name%:</span><span class="nv"> </span><span class="s">&amp;r&#39;</span>
+  <span class="nt">spy</span><span class="p">:</span> <span class="s">&#39;&amp;2[Chat</span><span class="nv"> </span><span class="s">Spy]</span><span class="nv"> </span><span class="s">%player_name%:</span><span class="nv"> </span><span class="s">&amp;r&#39;</span>
+<span class="c1">#教程选项</span>
+<span class="nt">tutorial</span><span class="p">:</span>
+  <span class="c1">#是否启用</span>
+  <span class="nt">activated</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+  <span class="c1">#教程副本名称</span>
+  <span class="nt">dungeon</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">tutorial</span>
+  <span class="c1">#玩家进入后所在用户组[default]</span>
+  <span class="nt">startGroup</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">default</span>
+  <span class="c1">#完成后玩家进入所在的组[player]</span>
+  <span class="nt">endgroup</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">player</span>
+<span class="c1">#颜色标识</span>
+<span class="nt">groupColorPriority</span><span class="p">:</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">DARK_BLUE</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">LIGHT_RED</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">YELLOW</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">LIGHT_GREEN</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">PURPLE</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">ORANGE</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">BLACK</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">LIGHT_BLUE</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">DARK_GREEN</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">DARK_RED</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">LIGHT_GRAY</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">CYAN</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">MAGENTA</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">DARK_GRAY</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">PINK</span>
+<span class="c1">#公告间隔</span>
+<span class="nt">announcementInterval</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">30.0</span>
+<span class="c1">#是否发送下一关Title</span>
+<span class="nt">sendFloorTitle</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="nt">globalDeathMessagesDisabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="c1">#DungeonsXL支持任何自定义怪物插件</span>
+<span class="c1">#您可以在此处注册占位符标记和spawn命令</span>
+<span class="c1">#自定义外部怪物插件的应该使用怪物[Mob]标志和M触发器</span>
+<span class="c1">#由自定义外部怪物生成插件的怪物应该会被kill击杀计数器识别 (/dxl game)</span>
+<span class="nt">externalMobProviders</span><span class="p">:</span> <span class="p p-Indicator">{}</span>
+    <span class="c1"># providerTag: spawn 命令</span>
+    <span class="c1"># &quot;%%&quot; 为占位符，即placeholders插件</span>
+    <span class="nt">XY</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">custommobplugin spawnmob %mob% %world% %x% %y% %z%</span>
+<span class="c1">#资源包</span>
+<span class="nt">resourcePacks</span><span class="p">:</span> <span class="p p-Indicator">{}</span>
+<span class="c1">#多少世界使用一个副本</span>
+<span class="nt">maxInstances</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">10</span>
+<span class="nt">editInstanceRemovalDelay</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">5</span>
+<span class="nt">strictMovementCheckEnabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="c1">#安全模式</span>
+<span class="nt">secureMode</span><span class="p">:</span>
+  <span class="c1">#是否启用</span>
+  <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+  <span class="c1">#是否允许玩家在编辑模式下打开背包</span>
+  <span class="nt">openInventories</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+  <span class="c1">#是否允许玩家在编辑模式下放置物品 （还是丢弃扶贫）</span>
+  <span class="nt">dropItems</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+  <span class="c1">#每5秒检查玩家</span>
+  <span class="c1">#检查玩家是否在编辑副本</span>
+  <span class="c1">#如果发现错误该玩家会被送回spawn</span>
+  <span class="nt">checkInterval</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">5.0</span>
+<span class="nt">backupMode</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ON_DISABLE_AND_SAVE</span>
+<span class="nt">lobbyContainersEnabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="nt">default</span><span class="p">:</span> <span class="p p-Indicator">{}</span>
+</code></pre></div>
                 
               
               
